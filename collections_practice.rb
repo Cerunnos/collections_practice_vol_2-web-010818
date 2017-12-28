@@ -30,6 +30,5 @@ def remove_non_strings(array)
     item.is_s?
     if false
       array.delete(item)
-
   end
 end
