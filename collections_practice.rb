@@ -24,3 +24,7 @@ def first_wa(array)
   end
   first_wa
 end
+
+def remove_non_strings(array)
+
+end
