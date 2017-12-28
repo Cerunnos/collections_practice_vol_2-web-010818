@@ -35,6 +35,8 @@ end
 
 def count_elements(array)
   array.each do |first_hash|
+    name=first_hash[:name]
     first_hash[:count]=0
+
   end
 end
