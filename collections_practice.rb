@@ -35,6 +35,6 @@ end
 
 def count_elements(array)
   array.each do |first_hash|
-    
+    first_hash[:count]=0
   end
 end
