@@ -42,5 +42,5 @@ def count_elements(array)
         first_hash[:count]+=1
       end
     end
-  end
+  end.uniq
 end
