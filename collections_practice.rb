@@ -29,8 +29,9 @@ def remove_non_strings(array)
   new_array=[]
   array.each do |item|
     item.is_a?(String)
-    if false
-      array.delete(item)
+    if true
+      new_array<<item
     end
   end
+  new_array
 end
